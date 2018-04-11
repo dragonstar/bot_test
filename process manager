@@ -1,0 +1,38 @@
+# Start, daemonize and auto-restart application
+pm2 start [/path/to/application]
+
+# List all processes started with PM2
+pm2 list
+
+# Display memory and cpu usage of each app
+pm2 monit
+
+# Show all information about application
+pm2 show [app-name]
+
+# Display logs of all apps
+pm2 logs
+
+# Display logs for a specific app
+pm2 logs [app-name]
+
+# Start application and name it "api"
+pm2 start app.js --name="api"
+
+# Start app and pass option "-a 34" as argument
+pm2 start app.js -- -a 34
+
+# Reset all counters
+pm2 reset [app-name]
+
+# Stop all apps
+pm2 stop all
+
+# Stop process with id 0
+pm2 stop 0
+
+# Kill and delete all apps
+pm2 delete all
+
+# Delete app with id 0
+pm2 delete 0
