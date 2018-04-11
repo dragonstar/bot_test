@@ -1,0 +1,7 @@
+xauth:  file /home/charles/.Xauthority does not exist
+
+New 'X' desktop is shockwave1:1
+
+Creating default startup script /home/charles/.vnc/xstartup
+Starting applications specified in /home/charles/.vnc/xstartup
+Log file is /home/charles/.vnc/shockwave1:1.log
