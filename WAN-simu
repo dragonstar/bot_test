@@ -1,0 +1,49 @@
+WAN 13TH APRIL
+
+Command
+./zenbot.sh sim binance.WAN-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma-short-period=7 --currency_capital=1
+
+
+SMA-CROSSING -1 HOUR
+end balance: 1.39107905 (39.10%)
+buy hold: 1.36018591 (36.01%)
+vs. buy hold: 2.27%
+2 trades over 6 days (avg 0.33 trades/day)
+win/loss: 1/0
+
+SMA-CROSSING -15m
+end balance: 0.97476362 (-2.53%)
+buy hold: 1.36018591 (36.01%)
+vs. buy hold: -28.34%
+28 trades over 6 days (avg 4.66 trades/day)
+win/loss: 4/12
+
+
+
+SMA - 15 min
+end balance: 1.06807559 (6.80%)
+buy hold: 1.36018591 (36.01%)
+vs. buy hold: -21.48%
+69 trades over 6 days (avg 11.50 trades/day)
+win/loss: 7/32
+
+SMA - 1 HOUR
+end balance: 0.97918208 (-2.09%)
+buy hold: 1.36018591 (36.01%)
+vs. buy hold: -28.02%
+8 trades over 6 days (avg 1.33 trades/day)
+win/loss: 2/3
+
+EXTENDED MACD - 1 hour
+end balance: 1.01392563 (1.39%)
+buy hold: 1.36018591 (36.01%)
+vs. buy hold: -25.46%
+18 trades over 6 days (avg 3.00 trades/day)
+win/loss: 4/7
+
+EXTENDED MACD - 15M
+end balance: 0.93127791 (-6.88%)
+buy hold: 1.36018591 (36.01%)
+vs. buy hold: -31.54%
+99 trades over 6 days (avg 16.50 trades/day)
+win/loss: 14/41
