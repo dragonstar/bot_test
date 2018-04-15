@@ -20,3 +20,11 @@ CtrlA c  // creates embedded screen
 CtrlA n  // goes to the next screen
 CtrlA p  // goes to the previous screen
 CtrlA d  // Detaches screen
+
+
+SIMS
+
+./zenbot.sh sim binance.ZIL-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1
+./zenbot.sh sim binance.XRP-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1
+./zenbot.sh sim binance.NEO-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1
+./zenbot.sh sim binance.TRX-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1
