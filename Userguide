@@ -4,6 +4,8 @@ Live bots
 ./zenbot.sh trade binance.XRP-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
 ./zenbot.sh trade binance.NEO-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
 ./zenbot.sh trade binance.TRX-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
+./zenbot.sh trade binance.DGD-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
+
 
 In reserve 
 ./zenbot.sh trade binance.WAN-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma-short-period=7
