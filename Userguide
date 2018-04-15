@@ -1,11 +1,22 @@
-charles@shockwave1:~/zenbot$ ./zenbot.sh trade binance.WAN-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma-short-period=7
-charles@Jason:~/zenbot$ ./zenbot.sh trade binance.ZIL-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
-charles@ass:~/zenbot$ ./zenbot.sh trade binance.XRP-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
-charles@SW1:~/zenbot$ ./zenbot.sh trade binance.NEO-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
-charles@SW2:~/zenbot$ ./zenbot.sh trade binance.TRX-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
+Live bots
+
+./zenbot.sh trade binance.ZIL-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
+./zenbot.sh trade binance.XRP-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
+./zenbot.sh trade binance.NEO-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
+./zenbot.sh trade binance.TRX-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7
+
+In reserve 
+./zenbot.sh trade binance.WAN-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma-short-period=7
+
 
 how to login
 > ssh root*[ip address]
 > login charles
 > [] themoon1
-screen -r
+screen -ls // lists screens
+screen -r [number]
+
+CtrlA c  // creates embedded screen 
+CtrlA n  // goes to the next screen
+CtrlA p  // goes to the previous screen
+CtrlA d  // Detaches screen
