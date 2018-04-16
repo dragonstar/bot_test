@@ -30,3 +30,12 @@ SIMS
 ./zenbot.sh sim binance.XRP-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options  
 ./zenbot.sh sim binance.NEO-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options 
 ./zenbot.sh sim binance.TRX-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options 
+
+
+./zenbot.sh sim binance.WAN-ETH --strategy 'sma-crossing' --period_length=15m --period=15m --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options --lookback_period=15 --verbose | grep end
+./zenbot.sh sim binance.WAN-ETH --strategy 'sma' --period_length=15m --period=15m --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options --lookback_period=15 --verbose | grep end
+./zenbot.sh sim binance.WAN-ETH --strategy 'sma' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options --lookback_period=15 --verbose | grep end
+./zenbot.sh sim binance.WAN-ETH --strategy 'sma-crossing' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options --lookback_period=15 --verbose | grep end
+./zenbot.sh sim binance.WAN-ETH --strategy 'extended-macd' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options --lookback_period=15 --verbose | grep end
+./zenbot.sh sim binance.WAN-ETH --strategy 'macd' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options --lookback_period=15 --verbose | grep end
+./zenbot.sh sim binance.WAN-ETH --strategy 'macd' --period_length=1h --period=1h --sma_long_period=25 --sma_short_period=7 --currency_capital=1 --disable_options --lookback_period=15 --verbose | grep end
